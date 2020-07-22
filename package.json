@@ -1,7 +1,7 @@
 {
-	"name": "koa-template",
+	"name": "{{name}}",
 	"version": "1.0.0",
-	"description": "koa-template",
+	"description": "{{description}}",
 	"scripts": {
 		"start": "node app.js",
 		"dev": "nodemon app.js"
