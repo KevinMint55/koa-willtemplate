@@ -1,0 +1,26 @@
+{
+	"name": "{{name}}",
+	"version": "1.0.0",
+  "description": "{{description}}",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"jsonwebtoken": "^8.5.1",
+		"koa": "^2.8.2",
+		"koa-body": "^4.1.1",
+		"koa-jwt": "^3.6.0",
+		"koa-logger": "^3.2.1",
+		"koa-onerror": "^4.1.0",
+		"koa-router": "^7.4.0",
+		"moment": "^2.24.0",
+		"mongoose": "^5.7.4",
+		"nodemailer": "^6.3.1",
+		"socket.io": "^2.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.3"
+	}
+}
